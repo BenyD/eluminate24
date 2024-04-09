@@ -1,11 +1,17 @@
-import React from "react";
-// import logo from "./assets/hits.png";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar";
-import Homes from "./Homes";
 import arrow from "./assets/arrow.png";
-import b1 from "./assets/jb.jpeg";
+import Popcard from "./components/popcard";
+import Sparkathon from "./components/Sparkathon";
 
 const App = () => {
+  const [showPopCard, setShowPopCard] = useState(false);
+  const togglePopCard = () => {
+    setShowPopCard(!showPopCard);
+  };
+  const closePopCard = () => {
+    setShowPopCard(false);
+  };
   return (
     <div className="App">
       {/* <Homes /> */}
@@ -36,6 +42,20 @@ const App = () => {
         <h1 className="event">EVENTS</h1>
         <img src={arrow} alt="arrow" className="arrow" />
       </div>
+      <div className="econt">
+        <div className="e">
+          <h1>SPARKATHON</h1>
+          <p className="desc">
+            Ideathon focused on building innovative solutions for provided
+            problem statements. Problem statements will be provided at the
+            venue.
+          </p>
+          <button className="more" onClick={togglePopCard}>
+            More Details
+          </button>
+        </div>
+      </div>
+      {showPopCard && <Sparkathon onClose={closePopCard} />}
     </div>
   );
 };
