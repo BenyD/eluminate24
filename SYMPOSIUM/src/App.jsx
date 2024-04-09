@@ -12,13 +12,14 @@ const App = () => {
   const closePopCard = () => {
     setShowPopCard(false);
   };
+
   return (
     <div className="App">
       {/* <Homes /> */}
       <div className="bd1"></div>
       <div className="bd2"></div>
       <Navbar />
-      <h1 className="symp24">SYMPOSIUM'24</h1>
+      <h1 className="symp24">SYMPOSIUM&apos;24</h1>
       <div className="mid-hero">
         <p className="welcome-text">
           Welcome to the most awaited symposium event conducted by Hindustan
@@ -27,7 +28,7 @@ const App = () => {
         <button className="register">Register</button>
       </div>
 
-      <div class="picsarea">
+      <div className="picsarea">
         <div id="b1"></div>
         <div className="i1">
           <div id="b2"></div>
