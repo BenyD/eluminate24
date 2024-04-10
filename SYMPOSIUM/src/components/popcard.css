@@ -3,8 +3,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.947);
   padding: 2rem;
+  z-index: 10000;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -22,4 +23,13 @@
 
 .close-btn:hover {
   color: #333;
+}
+
+@media screen and (max-width: 900px) {
+  .popcard {
+    width: 80vw;
+    height: 60vh;
+    overflow-y: scroll;
+    padding-bottom: 4rem;
+  }
 }

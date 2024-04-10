@@ -8,12 +8,15 @@
   margin-top: 2rem;
   height: fit-content;
   border-radius: 1.2rem;
+  z-index: 597;
   padding: 0.5rem 1rem;
   color: var(--font);
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  position: fixed;
+  top: 2%;
 }
 
 .logo {
@@ -30,4 +33,21 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media screen and (max-width: 910px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Navbar {
+    margin: 0;
+    flex-direction: column;
+    width: 85vw;
+    font-size: 0.65rem;
+  }
+  .logo {
+    height: 2rem;
+  }
 }
