@@ -8,6 +8,7 @@ import FusionChemist from "./components/FusionChemist";
 import GameDevelopment from "./components/GameDevelopment";
 import MelodyMatrix from "./components/MelodyMatrix";
 import QuizPong from "./components/QuizPong";
+import PixelParadox from "./components/PixelParadox";
 import Techstar_5 from "./components/Techstar_5";
 import GamerConvention from "./components/GamerConvention";
 import TechTalkies from "./components/TechTalkies";
@@ -283,7 +284,9 @@ const App = () => {
           </p>
           <button
             className="more"
-            onClick={() => togglePopCard(<Techstar_5 onClose={closePopCard} />)}
+            onClick={() =>
+              togglePopCard(<PixelParadox onClose={closePopCard} />)
+            }
           >
             More Details
           </button>
