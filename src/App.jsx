@@ -18,6 +18,7 @@ import g2 from "./assets/g2.png";
 import g3 from "./assets/g5.png";
 import g4 from "./assets/g4.png";
 import g5 from "./assets/g3.png";
+import BitsSkip from "./components/BitsSkip";
 
 const App = () => {
   const [showPopCard, setShowPopCard] = useState(false);
@@ -73,7 +74,11 @@ const App = () => {
           Welcome to the most awaited symposium event conducted by Hindustan
           University
         </p>
-        <a href="https://bit.ly/eluminate24" class="register" target="_blank">
+        <a
+          href="https://bit.ly/eluminate24"
+          className="register"
+          target="_blank"
+        >
           Register
         </a>
       </div>
@@ -348,13 +353,46 @@ const App = () => {
         >
           <h1>CAPTURE THE FLAG</h1>
           <p className="desc">
-            The CTF will be conducted in Jeopardy Style format.
+            Hackers, it's time to assemble and embark on an exhilarating journey
+            into the world of cybersecurity! Dive into a virtual environment
+            teeming with cybersecurity puzzles, vulnerabilities, and hidden
+            flags waiting to be discovered. Put your penetration testing skills,
+            reverse engineering capabilities, and Open Source Intelligence
+            (OSINT) knowledge to the test as you navigate through a series of
+            challenges meticulously designed to challenge and enhance your
+            cybersecurity prowess.
           </p>
           <button
             className="more"
             onClick={() =>
               togglePopCard(<CaptureTheFlag onClose={closePopCard} />)
             }
+          >
+            More Details
+          </button>
+        </div>
+        <div
+          className="e"
+          ref={popupRef}
+          onMouseEnter={disablePageScroll}
+          onMouseLeave={enablePageScroll}
+        >
+          <h1>BITS SKIP</h1>
+          <p className="desc">
+            Level 1: Players take turns throwing a ping pong ball into their
+            opponent's soda-filled cups arranged in a triangle. The opponent
+            drinks the soda if the ball lands in their cup first.
+            <br />
+            <br />
+            Level 2: Winners from Level 1 face new challenges, like standing
+            opposite each other or encountering mysterious drinks. Landing in a
+            soda-filled cup makes the opponent drink, while mysterious drinks
+            affect the teammate. Players must eliminate all opponents’ cups to
+            win.
+          </p>
+          <button
+            className="more"
+            onClick={() => togglePopCard(<BitsSkip onClose={closePopCard} />)}
           >
             More Details
           </button>
@@ -371,7 +409,7 @@ const App = () => {
           </div>
         </div>
       )}
-      <div className="foot">Made by Hindustan University</div>
+      <div className="foot">Made by Department of CSE</div>
     </div>
   );
 };

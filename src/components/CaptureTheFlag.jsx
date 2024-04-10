@@ -9,9 +9,16 @@ const CaptureTheFlag = ({ onClose }) => {
       </button>
       <h1>Capture the Flag</h1>
       <p>
-        The Capture the Flag (CTF) event will be conducted in Jeopardy Style
-        format.
+        Hackers, it's time to assemble and embark on an exhilarating journey
+        into the world of cybersecurity! Dive into a virtual environment teeming
+        with cybersecurity puzzles, vulnerabilities, and hidden flags waiting to
+        be discovered. Put your penetration testing skills, reverse engineering
+        capabilities, and Open Source Intelligence (OSINT) knowledge to the test
+        as you navigate through a series of challenges meticulously designed to
+        challenge and enhance your cybersecurity prowess.
       </p>
+      <h3>Type</h3>
+      <p>The CTF will be conducted in Jeopardy Style format.</p>
       <h3>Rules</h3>
       <ul>
         <li>CTF will take place on TryHackMe platform only.</li>
@@ -24,7 +31,10 @@ const CaptureTheFlag = ({ onClose }) => {
           with bonus points reward for ‘first blood’ or first participant
           solving each challenge.
         </li>
-        <li>Finalizing teams will be done offline, with 1 to 3 members.</li>
+        <li>
+          Finalizing teams will be done offline, each team can have atmost of 3
+          participants
+        </li>
         <li>
           Any attempt to disrupt the CTF platform, infrastructure or
           participants, cheating or sharing answers will lead to
@@ -41,8 +51,6 @@ const CaptureTheFlag = ({ onClose }) => {
           official WhatsApp group.
         </li>
       </ul>
-      <h3>Prizes</h3>
-      <p>Prize money is awarded for the winner and runner up only.</p>
     </div>
   );
 };

@@ -14,7 +14,7 @@ const Sparkathon = ({ onClose }) => {
       </p>
       <h3>Rules</h3>
       <ul>
-        <li>Maxiumum teams of three members each are allowed.</li>
+        <li>Maximum teams of three members each are allowed.</li>
         <li>Each team must adhere to the given problem statement.</li>
         <li>All ideas must be original and developed during the event.</li>
         <li>
