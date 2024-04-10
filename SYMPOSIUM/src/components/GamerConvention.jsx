@@ -9,16 +9,22 @@ const GamerConvention = ({ onClose }) => {
       </button>
       <h1>GAMER CONVENTION</h1>
       <p>
-        It(Valorant) is a team-based tactical shooter where players select
-        agents with unique abilities to compete in objective based matches.
-        Teams alternate between attacking and defending rounds, aiming to plant
-        or defuse a Spike (bomb) while utilizing precise gunplay and agent
-        abilities.
+        Valorant is a team-based tactical shooter where players select agents
+        with unique abilities to complete in objective-based matches. Team
+        alternate between attacking and defending rounds, aiming to plant or
+        defuse a spike (bomb) while utilising precise gunplay and agent
+        abilities. o BGMI survival shooter game, a type of large-scale last man
+        standing deathmatch.
       </p>
       <h3>Rules</h3>
       <ul>
-        <li>A team should consist only 5 members.</li>
-        <li>All participants are requested to join the room before 15mins.</li>
+        <li>
+          A team should consist only 4 members(BGMI) and 5 members(Valorant)
+        </li>
+        <li>
+          All registered participants and teams are requested to join the room
+          before 15mins.
+        </li>
         <li>Only registered teams and squads are allowed to play.</li>
         <li>
           Any types of mods or hacks usage will lead to team’s disqualification

@@ -7,11 +7,11 @@ const GameDevelopment = ({ onClose }) => {
       <button className="close-btn" onClick={onClose}>
         X
       </button>
-      <h1>GAME DEVELOPMENT</h1>
+      <h1>DIGITAL DESIGNER</h1>
       <p>
-        Team-based event where teams of three create innovative games. Create an
-        original game showcasing innovative mechanics and compelling
-        storytelling.
+        Our combined Game Development and App Development event provides a
+        platform for participants to showcase their creativity and technical
+        skills in designing and developing innovative games and applications
       </p>
       <h3>Rules</h3>
       <ul>

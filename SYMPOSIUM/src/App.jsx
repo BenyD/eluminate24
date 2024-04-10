@@ -9,6 +9,9 @@ import GameDevelopment from "./components/GameDevelopment";
 import MelodyMatrix from "./components/MelodyMatrix";
 import QuizPong from "./components/QuizPong";
 import Techstar_5 from "./components/Techstar_5";
+import GamerConvention from "./components/GamerConvention";
+import TechTalkies from "./components/TechTalkies";
+import CaptureTheFlag from "./components/CaptureTheFlag";
 
 const App = () => {
   const [showPopCard, setShowPopCard] = useState(false);
@@ -177,11 +180,11 @@ const App = () => {
           onMouseEnter={disablePageScroll}
           onMouseLeave={enablePageScroll}
         >
-          <h1>GAME DEVELOPMENT</h1>
+          <h1>DIGITAL DESIGNER</h1>
           <p className="desc">
-            Team-based event where teams of three create innovative games.
-            Create an original game showcasing innovative mechanics and
-            compelling storytelling.
+            Our combined Game Development and App Development event provides a
+            platform for participants to showcase their creativity and technical
+            skills in designing and developing innovative games and applications
           </p>
           <button
             className="more"
@@ -218,8 +221,31 @@ const App = () => {
             More Details
           </button>
         </div>
-
         <div
+          className="e"
+          ref={popupRef}
+          onMouseEnter={disablePageScroll}
+          onMouseLeave={enablePageScroll}
+        >
+          <h1>GAMER CONVENTION</h1>
+          <p className="desc">
+            It(Valorant) is a team-based tactical shooter where players select
+            agents with unique abilities to compete in objective based matches.
+            Teams alternate between attacking and defending rounds, aiming to
+            plant or defuse a Spike (bomb) while utilizing precise gunplay and
+            agent abilities.
+          </p>
+          <button
+            className="more"
+            onClick={() =>
+              togglePopCard(<GamerConvention onClose={closePopCard} />)
+            }
+          >
+            More Details
+          </button>
+        </div>
+
+        {/* <div
           className="e"
           ref={popupRef}
           onMouseEnter={disablePageScroll}
@@ -242,7 +268,7 @@ const App = () => {
           >
             More Details
           </button>
-        </div>
+        </div> */}
 
         <div
           className="e"
@@ -250,7 +276,25 @@ const App = () => {
           onMouseEnter={disablePageScroll}
           onMouseLeave={enablePageScroll}
         >
-          <h1>TECHSTAR_5</h1>
+          <h1>PIXEL PARADOX</h1>
+          <p className="desc">
+            Reverse Prompt Image challenge where participants generate prompts
+            for provided images. Three levels of increasing difficulty.
+          </p>
+          <button
+            className="more"
+            onClick={() => togglePopCard(<Techstar_5 onClose={closePopCard} />)}
+          >
+            More Details
+          </button>
+        </div>
+        <div
+          className="e"
+          ref={popupRef}
+          onMouseEnter={disablePageScroll}
+          onMouseLeave={enablePageScroll}
+        >
+          <h1>TECH STAR 5</h1>
           <p className="desc">
             Fame for 5 is a game designed to simulate the experience of being a
             celebrity for a brief period. The objective is to accumulate as much
@@ -261,6 +305,47 @@ const App = () => {
           <button
             className="more"
             onClick={() => togglePopCard(<Techstar_5 onClose={closePopCard} />)}
+          >
+            More Details
+          </button>
+        </div>
+        <div
+          className="e"
+          ref={popupRef}
+          onMouseEnter={disablePageScroll}
+          onMouseLeave={enablePageScroll}
+        >
+          <h1>TECH TALKIES</h1>
+          <p className="desc">
+            "Tech Talkies" is a competitive event designed to provide students
+            with practical interview experience in a simulated environment.
+            Participants will engage in mock interviews to showcase their skills
+            and readiness for the tech industry.
+          </p>
+          <button
+            className="more"
+            onClick={() =>
+              togglePopCard(<TechTalkies onClose={closePopCard} />)
+            }
+          >
+            More Details
+          </button>
+        </div>
+        <div
+          className="e"
+          ref={popupRef}
+          onMouseEnter={disablePageScroll}
+          onMouseLeave={enablePageScroll}
+        >
+          <h1>CAPTURE THE FLAG</h1>
+          <p className="desc">
+            The CTF will be conducted in Jeopardy Style format.
+          </p>
+          <button
+            className="more"
+            onClick={() =>
+              togglePopCard(<CaptureTheFlag onClose={closePopCard} />)
+            }
           >
             More Details
           </button>
