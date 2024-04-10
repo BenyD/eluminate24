@@ -139,6 +139,7 @@ body::-webkit-scrollbar {
 #b5 {
   background: #2f2f2f;
   z-index: 2;
+  object-fit: cover;
   border-radius: 1.5rem;
 }
 
@@ -305,7 +306,7 @@ body::-webkit-scrollbar {
 
   #b1 {
     width: 90vw;
-    height: 16vh;
+    height: 20vh;
     border-radius: 0.8rem;
   }
   #b2,

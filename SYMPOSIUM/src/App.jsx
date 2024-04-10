@@ -7,12 +7,17 @@ import CybercryptQuest from "./components/CybercryptQuest";
 import FusionChemist from "./components/FusionChemist";
 import GameDevelopment from "./components/GameDevelopment";
 import MelodyMatrix from "./components/MelodyMatrix";
-import QuizPong from "./components/QuizPong";
+// import QuizPong from "./components/QuizPong";
 import PixelParadox from "./components/PixelParadox";
 import Techstar_5 from "./components/Techstar_5";
 import GamerConvention from "./components/GamerConvention";
 import TechTalkies from "./components/TechTalkies";
 import CaptureTheFlag from "./components/CaptureTheFlag";
+import g1 from "./assets/g1.jpg";
+import g2 from "./assets/g2.png";
+import g3 from "./assets/g5.png";
+import g4 from "./assets/g4.png";
+import g5 from "./assets/g3.png";
 
 const App = () => {
   const [showPopCard, setShowPopCard] = useState(false);
@@ -74,16 +79,17 @@ const App = () => {
       </div>
 
       <div className="picsarea">
-        <div id="b1"></div>
+        <img src={g1} alt="g1" id="b1" />
         <div className="i1">
-          <div id="b2"></div>
-          <div id="b3"></div>
+          <img src={g2} alt="g2" id="b2" />
+          <img src={g3} alt="g3" id="b3" />
         </div>
         <div className="i2">
-          <div id="b4"></div>
-          <div id="b5"></div>
+          <img src={g4} alt="g4" id="b4" />
+          <img src={g5} alt="g5" id="b5" />
         </div>
       </div>
+
       <div className="events-head">
         <h1 className="event">EVENTS</h1>
         <img src={arrow} alt="arrow" className="arrow" />
