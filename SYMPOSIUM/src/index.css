@@ -56,7 +56,7 @@ body::-webkit-scrollbar {
   border-radius: 1000rem;
   position: absolute;
   bottom: -130%;
-  right: -30%;
+  right: -2%;
 }
 
 .events-head {
