@@ -56,6 +56,7 @@ const App = () => {
       {/* <Homes /> */}
       <div className="bd1"></div>
       <div className="bd2"></div>
+      <div className="bd3"></div>
       <Navbar />
       <h1 className="symp24">SYMPOSIUM&apos;24</h1>
       <div className="mid-hero">
@@ -63,7 +64,9 @@ const App = () => {
           Welcome to the most awaited symposium event conducted by Hindustan
           University
         </p>
-        <button className="register">Register</button>
+        <a href="https://bit.ly/eluminate24" class="register" target="_blank">
+          Register
+        </a>
       </div>
 
       <div className="picsarea">

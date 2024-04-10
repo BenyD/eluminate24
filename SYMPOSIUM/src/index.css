@@ -47,6 +47,18 @@ body::-webkit-scrollbar {
   left: -7%;
 }
 
+.bd3 {
+  width: 14rem;
+  height: 10rem;
+  background: var(--pink);
+  filter: blur(90px);
+  z-index: 0;
+  border-radius: 1000rem;
+  position: absolute;
+  bottom: -130%;
+  right: -30%;
+}
+
 .events-head {
   align-items: center;
   gap: 4rem;
@@ -98,6 +110,7 @@ body::-webkit-scrollbar {
   padding: 0.5rem 1rem;
   cursor: pointer;
   transition: all 0.3s;
+  text-decoration: none;
   border-radius: 0.4rem;
   font-size: 1.5rem;
   color: var(--font);
