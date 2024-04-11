@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./Home.css";
-import hits from "./assets/hits.png";
+import hits from "./assets/logoe.png";
 
 function Homes() {
   const calculateTimeLeft = () => {

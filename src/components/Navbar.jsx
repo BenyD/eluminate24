@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
-import logo from "../assets/hits.png";
+import logo from "../assets/logoe.png";
 
 const Navbar = () => {
   const calculateTimeLeft = () => {

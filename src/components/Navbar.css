@@ -22,7 +22,8 @@
 
 .logo {
   fill: var(--font);
-  height: 5rem;
+  border-radius: 100rem;
+  height: 7.4rem;
 }
 
 .timer {
@@ -49,6 +50,6 @@
     font-size: 0.65rem;
   }
   .logo {
-    height: 2rem;
+    height: 5rem;
   }
 }

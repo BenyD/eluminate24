@@ -225,7 +225,7 @@ body::-webkit-scrollbar {
   color: var(--font);
   padding: 2rem;
   min-width: 36rem;
-  height: 20rem;
+  height: 22rem;
 }
 
 .e h1,
@@ -353,7 +353,7 @@ body::-webkit-scrollbar {
   }
   .e {
     min-width: 60vw;
-    height: 24rem;
+    height: 32rem;
   }
 
   .desc {

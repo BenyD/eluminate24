@@ -68,7 +68,7 @@ const App = () => {
       <div className="bd2"></div>
       <div className="bd3"></div>
       <Navbar />
-      <h1 className="symp24">SYMPOSIUM&apos;24</h1>
+      <h1 className="symp24">E-LUMINATE&apos;24</h1>
       <div className="mid-hero">
         <p className="welcome-text">
           Welcome to the most awaited symposium event conducted by Hindustan
