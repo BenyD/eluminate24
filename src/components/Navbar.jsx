@@ -4,7 +4,7 @@ import logo from "../assets/logoe.png";
 
 const Navbar = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2024-04-20T08:30:00") - +new Date();
+    const difference = +new Date("2024-04-26T08:30:00") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <img src={logo} alt="" className="logo" />
-      {/* <div className="timer">
+      <div className="timer">
         {days > 0 && (
           <div className="timer-d">
             <h2>{days}</h2>
@@ -56,10 +56,10 @@ const Navbar = () => {
           <h2>{seconds}</h2>
           <p>Seconds</p>
         </div>
-      </div> */}
-      <div className="temp">
-        <h2>DATES TO BE ANNOUNCED SOON</h2>
       </div>
+      {/* <div className="temp">
+        <h2>DATES TO BE ANNOUNCED SOON</h2>
+      </div> */}
     </div>
   );
 };
