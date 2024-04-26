@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <div className="Navbar">
-      <img src={logo} alt="" className="logo" />
+      <img src={logo} alt="" className="logo" />{/*
       <div className="timer">
         {days > 0 && (
           <div className="timer-d">
@@ -57,6 +57,8 @@ const Navbar = () => {
           <p>Seconds</p>
         </div>
       </div>
+*/}
+<h1>Now Underway</h1>
       {/* <div className="temp">
         <h2>DATES TO BE ANNOUNCED SOON</h2>
       </div> */}
